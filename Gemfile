@@ -4,5 +4,4 @@ source 'https://rubygems.org'
 gemspec
 gem 'activeresource', '4.0.0'
 
-gem 'dalli', '2.7.4'
 gem 'jwt', '1.4.1'
