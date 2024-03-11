@@ -1,0 +1,125 @@
+development:
+  umms_rws: http://dev-umms-rws.optilink.com:8082/
+  memcached_service: dev-umms-cache01.optilink.com:11211
+  memcached_namespace: eastsea_umms_development
+  memcached_expires_in: 7
+  memcached_authentication: 0
+  secret_key: "@PT1L!NK"
+
+test:
+  umms_rws: http://dev-umms-rws.optilink.com:8082/
+  memcached_service: sz-int-generic-app01.sz.optilink.local:11211
+  memcached_namespace: eastsea_umms_test
+  memcached_expires_in: 7
+  memcached_authentication: 0
+  secret_key: "@PT1L!NK"
+
+integration:
+  umms_rws: http://int-umms-rws.optilink.com:8082/
+  memcached_service: sz-int-generic-app01.sz.optilink.local:11211
+  memcached_namespace: eastsea_umms_integration
+  memcached_expires_in: 7
+  memcached_authentication: 0
+  secret_key: "@PT1L!NK"
+
+staging:
+  umms_rws: http://stg-umms-rws.optilink.com:8084/
+  memcached_service: stg-umms-cache01.optilink.com:11211
+  memcached_namespace: eastsea_umms_staging
+  memcached_expires_in: 7
+  memcached_authentication: 0
+  secret_key: "@PT1L!NK"
+
+rel_integration:
+  umms_rws: http://rin-umms-rws.optilink.com:8082/
+  memcached_service: sz-int-generic-app01.sz.optilink.local:11211
+  memcached_namespace: eastsea_umms_rel_integration
+  memcached_expires_in: 7
+  memcached_authentication: 0
+  secret_key: "@PT1L!NK"
+
+rel_staging:
+  umms_rws: http://rst-umms-rws.optilink.com:8084/
+  memcached_service: stg-umms-cache01.optilink.com:11211
+  memcached_namespace: eastsea_umms_rel_staging
+  memcached_expires_in: 7
+  memcached_authentication: 0
+  secret_key: "@PT1L!NK"
+
+bi_integration:
+  umms_rws: http://bint-umms-rws.optilink.com:8082/
+  memcached_service: sz-int-generic-app01.sz.optilink.local:11211
+  memcached_namespace: eastsea_umms_bi_integration
+  memcached_expires_in: 7
+  memcached_authentication: 0
+  secret_key: "@PT1L!NK"
+
+bi_staging:
+  umms_rws: http://bstg-umms-rws.optilink.com:8084/
+  memcached_service: stg-umms-cache01.optilink.com:11211
+  memcached_namespace: eastsea_umms_bi_staging
+  memcached_expires_in: 7
+  memcached_authentication: 0
+  secret_key: "@PT1L!NK"
+  
+mb_integration:
+  umms_rws: http://mint-umms-rws.optilink.com:8082/
+  memcached_service: sz-int-generic-app01.sz.optilink.local:11211
+  memcached_namespace: eastsea_umms_mb_integration
+  memcached_expires_in: 7
+  memcached_authentication: 0
+  secret_key: "@PT1L!NK"
+
+mb_staging:
+  umms_rws: http://mstg-umms-rws.optilink.com:8084/
+  memcached_service: stg-umms-cache01.optilink.com:11211
+  memcached_namespace: eastsea_umms_mb_staging
+  memcached_expires_in: 7
+  memcached_authentication: 0
+  secret_key: "@PT1L!NK"
+
+cc_integration:
+  umms_rws: http://cint-umms-rws.optilink.com:8082/
+  memcached_service: sz-int-generic-app01.sz.optilink.local:11211
+  memcached_namespace: eastsea_umms_cc_integration
+  memcached_expires_in: 7
+  memcached_authentication: 0
+  secret_key: "@PT1L!NK"
+
+cc_staging:
+  umms_rws: http://cstg-umms-rws.optilink.com:8084/
+  memcached_service: stg-umms-cache01.optilink.com:11211
+  memcached_namespace: eastsea_umms_cc_staging
+  memcached_expires_in: 7
+  memcached_authentication: 0
+  secret_key: "@PT1L!NK"
+
+demo:
+  umms_rws: http://demo-umms-rws.optilink.com:8088/
+  memcached_service: demo-umms-cache01.optilink.com:11211
+  memcached_namespace: eastsea_umms_demo
+  memcached_expires_in: 7
+  memcached_authentication: 1
+  memcached_username: '70f2da8601a04775'
+  memcached_password: 'Ocs0pt1l1nk'
+  secret_key: "@PT1L!NK"
+
+sandbox:
+  umms_rws: http://snd-umms-rws.optilink.com:8086/
+  memcached_service: snd-umms-cache01.optilink.com:11211
+  memcached_namespace: eastsea_umms_sandbox
+  memcached_expires_in: 7
+  memcached_authentication: 1
+  memcached_username: '70f2da8601a04775'
+  memcached_password: 'Ocs0pt1l1nk'
+  secret_key: "@PT1L!NK"
+
+production:
+  umms_rws: http://prd-umms-rws.optilink.com:8080/
+  memcached_service: prd-umms-cache01.optilink.com:11211
+  memcached_namespace: eastsea_umms_production
+  memcached_expires_in: 7
+  memcached_authentication: 1
+  memcached_username: '70f2da8601a04775'
+  memcached_password: 'Ocs0pt1l1nk'
+  secret_key: "@PT1L!NK"
