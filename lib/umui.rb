@@ -3,7 +3,6 @@ require "yaml"
 require "umui/version"
 require "umui/constant"
 require 'active_resource'
-require 'dalli'
 require 'jwt'
 
 module Umui
